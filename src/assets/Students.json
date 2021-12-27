@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Siddhesh Patil",
+        "city":"Palghar",
+        "state":"Maharastra",
+        "pinCode":"401404",
+        "mobileNo":"7709158627"
+    },
+    {
+        "name":"Aniket Patil",
+        "city":"Palghar",
+        "state":"Maharastra",
+        "pinCode":"401404",
+        "mobileNo":"8308623909"  
+    },
+    {
+        "name":"Ninad Patil",
+        "city":"Virar",
+        "state":"Maharastra",
+        "pinCode":"401305",
+        "mobileNo":"9876543210"
+    },
+    {
+        "name":"Prajkta Kini",
+        "city":"Banglore",
+        "state":"Karnataka",
+        "pinCode":"764382",
+        "mobileNo":"7765341982"
+    },
+    {
+        "name":"Akshay Kadu",
+        "city":"Paris",
+        "state":"France",
+        "pinCode":"764241",
+        "mobileNo":"6739273765"
+    }
+]

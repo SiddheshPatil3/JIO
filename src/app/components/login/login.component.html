@@ -1,0 +1,108 @@
+<!-- <div class="login-form">
+    <div class="card">
+      <h2 class="head py-2">Login</h2>
+      <form class="user-login" [formGroup]="loginForm" (ngSubmit)="onLogin()">
+        <div class="row">
+          <div class="col-md-12 roundedTextBox mb-3">
+            <label>Username</label>
+            <input type="email" class="form-control mb-2" id="inputEmail" formControlName="email" placeholder="Enter Email">
+            <div *ngIf="submitted && formControl.email.errors" class="text-danger">
+              <div *ngIf="formControl.email.errors.email">Email must be valid.</div>
+              <div *ngIf="formControl.email.errors.required">Email is required.</div>
+            </div>
+          </div>
+          <div class="col-md-12 roundedTextBox mb-3">
+            <label>Password</label>
+            <input type="password" class="form-control mb-2" id="inputPassword" formControlName="password" placeholder="Enter Password">
+            <div *ngIf="submitted && formControl.password.errors" class="text-danger">
+              <div *ngIf="formControl.password.errors.required">Password is required.</div>
+              <div *ngIf="formControl.password.errors.pattern">
+                
+                <ul>
+                  <li>Password should be alphanumeric</li>
+                  <li>A letter of the password should be capital</li>
+                  <li>Password must contain a special character (@, $, !, &, etc)</li>
+                  <li>Password length must be greater than 7 characters</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="buttons text-center">
+          <button class="btn-customBlue mr-2" type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </div> -->
+
+
+
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.png" class="img-fluid"
+            alt="Sample image">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <form class="user-login" [formGroup]="loginForm" (ngSubmit)="onLogin()">
+                <div class="row">
+                  <div class="col-md-12 roundedTextBox mb-3">
+                    <label>Username</label>
+                    <input type="email" class="form-control mb-2" id="inputEmail" formControlName="email" placeholder="Enter Email">
+                    <div *ngIf="submitted && formControl.email.errors" class="text-danger">
+                      <div *ngIf="formControl.email.errors.email">Email must be valid.</div>
+                      <div *ngIf="formControl.email.errors.required">Email is required.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 roundedTextBox mb-3">
+                    <label>Password</label>
+                    <input type="password" class="form-control mb-2" id="inputPassword" formControlName="password" placeholder="Enter Password">
+                    <div *ngIf="submitted && formControl.password.errors" class="text-danger">
+                      <div *ngIf="formControl.password.errors.required">Password is required.</div>
+                      <div *ngIf="formControl.password.errors.pattern">
+                        
+                        <ul>
+                          <li>Password should be alphanumeric</li>
+                          <li>A letter of the password should be capital</li>
+                          <li>Password must contain a special character (@, $, !, &, etc)</li>
+                          <li>Password length must be greater than 7 characters</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="buttons text-center">
+                  <button class="btn btn-primary mr-2" type="submit">Login</button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+      <!-- Copyright -->
+      <div class="text-white mb-3 mb-md-0">
+        Copyright © 2020. All rights reserved.
+      </div>
+      <!-- Copyright -->
+  
+      <!-- Right -->
+      <div>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#!" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#!" class="text-white">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </div>
+  </section>

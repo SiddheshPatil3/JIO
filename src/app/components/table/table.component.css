@@ -1,0 +1,11 @@
+.emptable{
+    /* width: auto; */
+    margin: 5px;
+}
+.emp{
+    text-align: center;
+    color: darksalmon;
+}
+.dark{
+    background-color: gray;
+}
